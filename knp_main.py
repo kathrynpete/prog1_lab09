@@ -7,7 +7,6 @@ def encode(password):
 
     return encoded_pw
 
-# print(encode("12345"))
 
 def main():
     choose = 0
@@ -26,8 +25,7 @@ def main():
             print("Your password has been encoded and stored!\n")
 
         elif choose == 2:
-            pw = encode(password)
-            print(f"The encoded password is {pw} and the original password is {password}")
+            pass
 
 if __name__ == "__main__":
     main()
